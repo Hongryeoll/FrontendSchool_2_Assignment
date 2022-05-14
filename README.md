@@ -1,1 +1,1 @@
-# FrontendSchool_2_Assignment
+#  🦁 멋쟁이사자처럼 과제 모음 🦁
