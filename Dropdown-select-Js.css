@@ -1,0 +1,71 @@
+.dropdown {
+    width: 200px;
+    margin: 100px auto 0;
+    z-index: 1;
+}
+
+
+.dropdown-toggle {
+    width: 100%;
+    padding: 13px 20px 13px 14px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+    background: url(./icon-Triangle-down.png) no-repeat;
+    background-position: right 14px center;
+}
+
+.dropdown-option {
+    width: 100%;
+}
+
+
+.dropdown-toggle + .dropdown-menu {
+    display: block;
+}
+
+.dropdown-toggle:focus {
+    border: 1px solid #9b51e0;
+    outline: 3px solid #f8e4ff;
+}
+
+.dropdown-menu {
+    display: none;
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid #c4c4c4;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 5px 18px;
+}
+
+.dropdown-menu .dropdown-item .dropdown-option {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.dropdown-menu.show {
+    visibility: visible;
+}
+
+button:focus{
+    border: 1px solid #9b51e0 !important;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
